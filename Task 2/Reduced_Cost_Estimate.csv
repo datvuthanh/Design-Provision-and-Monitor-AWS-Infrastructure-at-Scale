@@ -1,0 +1,20 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,183,2196,USD,"Hosted Zones (1), Additional Records in Hosted Zones (), IP (CIDR) blocks (), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,324.85,3898.2,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,VPN Connection,0,78.24,938.88,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (2), Number of subnet associations (1)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,1564.86,18778.32,USD,"Operating system (Linux), Quantity (6), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (1 TB), Instance type (m5a.2xlarge)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2468.32,29619.84,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,367.1,4405.2,USD,S3 Standard storage (15 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (6), Number of EIPs per instance (1)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Total Money (Monthly),,,,,"4,986.37 USD",,,
+,,,,,,,,
+,,,,,,,,
+I change instance type from m5a.4xlarge to m5a.2xlarge at Amazon RDS for MySQL and Amazon EC2,,,,,,,,
